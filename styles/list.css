@@ -3,11 +3,22 @@ html {
 }
 body {
     min-height: 100%;
+    margin: 0;
+    background-color: #e0e0e0;
+}
+nav,footer{
+    background-color: rosybrown;
 }
 nav img{
     height: 60px;
     
     width: 60px;
+}
+ .radisson, .lalit_hotel, .taj_palace{
+    margin: 2%;
+    background-color: rgb(132, 136, 139);
+    width: 40%;
+    height: auto;
 }
 #list_view img{
     width: 250px;

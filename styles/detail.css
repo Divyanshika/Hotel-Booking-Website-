@@ -3,6 +3,11 @@ html {
 }
 body {
     min-height: 100%;
+    margin: 0;
+    background-color: #e0e0e0;
+}
+nav,footer{
+    background-color: rosybrown;
 }
 nav img{
     height: 60px;
@@ -11,8 +16,14 @@ nav img{
 section img{
     height: 500px;
     width: 500px;
+    margin: 2% 4% 0 4%;
 }
-
+section form{
+    margin: 0 4% 1%;
+}
+#description{
+    margin: 1% 4% 2% 4%;
+}
 footer img{
     height: 20px;
     width: 22px;
