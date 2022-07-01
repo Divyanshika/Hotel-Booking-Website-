@@ -1,47 +1,41 @@
-html {
-    height: 100%;
-    margin: 0;
-}
-body {
-    min-height: 100%;
-    margin: 0;
-    background-color: #e0e0e0;
-}
-nav,footer{
-    background-color: rosybrown;
-}
-
-nav img{
-    height: 60px;
-    width: 60px;
-}
-article{
-    
-    background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
-    height: 380px;
-    width: auto;
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat; 
-}
-
- #delhi, #kolkata, #goa, #hyderabad{
-    
-    height: 150px;
-    width: 150px;
+.core-img {
+    margin: 0 15%;
+  }
+  
+  .delhi-img,
+  .goa-img,
+  .hyderabad-img,
+  .kolkata-img {
     padding: 4%;
     border-radius: 25%;
-   
-}
-#city_cards{
-    position: relative;
-     margin: 0 15%;
-
-}
-
-
-
-footer img{
-    height: 20px;
-    width: 22px;
-}
+  }
+  
+  .search-bar {
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+  
+  .search_bar {
+    height: 7%;
+    border: 1px #ffffff00;
+    background-color: #f1f1f1;
+    padding-left: 10px;
+    font-size: 16px;
+    width: 30%;
+    border-radius: 12px;
+  }
+  
+  .core-img {
+    text-align: center;
+  }
+  .content {
+    padding-top: 3.9rem;
+  }
+  

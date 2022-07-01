@@ -1,32 +1,34 @@
-html {
-    height: 100%;
-}
-body {
-    min-height: 100%;
-    margin: 0;
-    background-color: #e0e0e0;
-}
-nav,footer{
-    background-color: rosybrown;
-}
-
-nav img{
-    height: 60px;
-    
-    width: 60px;
-}
- .radisson, .lalit_hotel, .taj_palace{
+.hotel-img {
+    height: 250px;
+    width: 250px;
+  }
+  .content {
+    padding-top: 5rem;
+  }
+  .hotel-redisson,
+  .hotel-lalit,
+  .hotel-taj {
     margin: 2%;
     background-color: rgb(132, 136, 139);
     width: 40%;
     height: auto;
-}
-#list_view img{
-    width: 250px;
-    height: 200px;
-
-}
-footer img{
-    height: 20px;
-    width: 22px;
-}
+  }
+  .content-list {
+    display: block;
+    text-decoration: none;
+  }
+  
+  .content-list {
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+  }
+  .content-map {
+    display: none;
+  }
+  .content-hotel-delhi {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  

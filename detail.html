@@ -7,77 +7,127 @@
     <title>Detail</title>
     <link rel="stylesheet" href="styles/detail.css">
     <link rel="stylesheet" href="styles/common.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     
    
 </head>
-<body>
-    <div>
-        <nav >
-            <a href="index.html" >
-            <img src="assests/images/logo.png"   alt="logo" >
-            </a>
-               <a href="/login.html">Login</a>  
-        </nav>
 
-    <section>
-        
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="radisson" alt="">
-           <br>
-           <form action="payment.html" method="get">
-            <label for="Adults">Adults:</label>
-            <input type="number" name="adults" id="adults" min="1" required>
-                <br>
-            <label for="Name">Name:</label>
-            <input type="text" name="name" id="name" required>
-                <br>
-            <label for="from-Date">From Date:</label>
-            <input type="date" name="from-date" id="from-date" required>
-                <br>
-            <label for="to-Date">To Date:</label>
-            <input type="date" name="to-date" id="to-date" required>
-                <br>
-            <label for="Total">Total:</label>
-            <input type="text" id="total" name="total" disabled>
-                <br>
-            <button type="submit">Book Now</button>
-           </form>
-          <div id="description">
-            <h2>Radisson Blu Hotel</h2>
+<body>
+    <div class="main-container">
+      <header class="header">
+        <a href="index.html">
+          <img class="logo-img" src="assests/images/logo.png" alt="logo"
+        /></a>
+        <a class="login-tag" href="login.html">Login</a>
+      </header>
+
+      <section class="content">
+        <div class="content-redisson-img">
+          <img
+            class="redisson-img"
+            src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+            alt="Redisson"
+          />
+        </div>
+
+        <div class="redisson-text">
+          <div class="details_form-container">
+            <form action="payment.html" class="details-form">
+              <label for="adults">Adults:</label>
+              <input
+                type="number"
+                name="adults"
+                id="adults"
+                value="1"
+                min="1"
+                required
+                autocomplete="off"
+              /><br />
+              <label for="name">Username:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                autocomplete="off"
+              /><br />
+              <label for="date">From Date:</label>
+              <input
+                type="date"
+                name="date"
+                id="date"
+                required
+                autocomplete="off"
+              />
+              <br />
+              <label for="date">To Date:</label>
+              <input
+                type="date"
+                name="date"
+                id="date"
+                required
+                autocomplete="off"
+              />
+              <br />
+              <label for="price">Total:</label>
+              <input type="text" name="total" id="price" maxlength="0" /><br />
+              <input type="submit" value="Book Now" />
+            </form>
+          </div>
+
+          <div class="hotel_discription">
+            <h2>Redisson Blu Hotel</h2>
             <p>RATING</p>
             <p>5 Star</p>
             <p>AMENITIES</p>
             <ul>
-                <li>Room servie</li>
-                <li>Restaurant</li>
-                <li>Business center</li>
-               <li> Fitness center</li>
-                <li>Pool</li>
+              <li>Room Service</li>
+              <li>Restaurant</li>
+              <li>Business Center</li>
+              <li>Fitness Center</li>
+              <li>Pool</li>
             </ul>
-          <h5>DESCRIPTION</h5>
-          
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate dignissimos, incidunt fugit expedita aliquam, quas laboriosam earum sapiente accusamus placeat nisi. Cumque sit quia sint dolore. Sed repudiandae <br> quibusdam dolore.</p>
+            <h5>DESCRIPTION</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              voluptates pariatur enim voluptate. Maxime similique atque amet
+              illo incidunt doloremque, nisi ad in iusto. Quis minus nam
+              praesentium corrupti amet.
+            </p>
+          </div>
         </div>
-        </section>
+      </section>
+      <div class="footer">
+        <footer class="index-footer">
+          <div class="contact-ftr">
+            <a class="contact_us" href="contact.html">Contact US</a>
+          </div>
 
-
-   
-    <footer>
-        <a href="contact.html" >Contact Us</a>
-        <br>
-        <a href="https://www.facebook.com" target="_blank">
-            <img src="assests/images/facebook.png" alt="" >
-        </a>
-        <a href="https://www.instagram.com" target="_blank">
-            <img src="assests/images/instagram.png" alt="" >
-        </a>
-        <a href="https://twitter.com" target="_blank">
-            <img src="assests/images/twitter.png" alt="" >
-        </a>
-       
-        <div>&copy; 2020 ROOM SEARCH PVT. LTD.</div>
-    </footer>
-
-    
-</div>
-</body>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/"
+              ><img
+                class="social-icon"
+                src="assests/images/facebook.png"
+                alt="Facebook"
+            /></a>
+            <a href="https://www.instagram.com/"
+              ><img
+                class="social-icon"
+                src="assests/images/instagram.png"
+                alt="instagram"
+            /></a>
+            <a href="https://www.twitter.com/"
+              ><img
+                class="social-icon"
+                src="assests/images/twitter.png"
+                alt="twitter"
+            /></a>
+          </div>
+        </footer>
+        <div class="copy_right-ftr">
+          <p class="copy_right-p">&#169; 2022 ROOM SEARCH PVT.LTD.</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

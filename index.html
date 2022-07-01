@@ -6,54 +6,83 @@
     <meta name="viewport" content="width= , initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/common.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <title>Index</title>
     
    
     
 </head>
 <body>
-    <div>
+    <div class="main-container">
+      <header class="header">
+        <a href="index.html">
+          <img class="logo-img" src="assests/images/logo.png" alt="logo"
+        /></a>
+        <a class="login-tag" href="login.html">Login</a>
+      </header>
 
-    <nav class="header">
-        <img src="assests/images/logo.png"   alt="logo" >
-       <a href="/login.html">Login</a>
-       
-    </nav>
+      <section class="content">
+        <form class="search-bar">
+          <input class="search_bar" type="text" placeholder="City" />
+        </form>
 
-    <section class="content">
-       <article>
-        <input type="text" name="search_bar" id="search_bar" placeholder="City">
-    </article>
-        <div id="city_cards">
-        <br>
-        <a href="list.html"  >
-        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" id="delhi" alt="" >
-        </a>
-        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"  id="goa" alt="">
-        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" id="hyderabad" alt="" >
-        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" id="kolkata" alt="" >
+        <div class="core-img">
+          <a href="list.html"
+            ><img
+              class="delhi-img"
+              src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
+              alt="Delhi"
+          /></a>
+          <img
+            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
+            alt="Goa"
+            class="goa-img"
+          />
+          <img
+            src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
+            alt="Hyderabad"
+            class="hyderabad-img"
+          />
+          <img
+            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
+            alt="Kolkata"
+            class="kolkata-img"
+          /><br />
+          <a href="#">View More>></a>
+        </div>
+      </section>
+
+      <div class="footer">
+        <footer class="index-footer">
+          <div class="contact-ftr">
+            <a class="contact_us" href="contact.html">Contact US</a>
+          </div>
+
+          <div class="social-icons">
+            <a href="https://www.facebook.com/"
+              ><img
+                class="social-icon"
+                src="assests/images/facebook.png"
+                alt="Facebook"
+            /></a>
+            <a href="https://www.instagram.com/"
+              ><img
+                class="social-icon"
+                src="assests/images/instagram.png"
+                alt="instagram"
+            /></a>
+            <a href="https://www.twitter.com/"
+              ><img
+                class="social-icon"
+                src="assests/images/twitter.png"
+                alt="twitter"
+            /></a>
+          </div>
+        </footer>
+        <div class="copy_right-ftr">
+          <p class="copy_right-p">&#169; 2022 ROOM SEARCH PVT.LTD.</p>
+        </div>
+      </div>
     </div>
-        <br>
-        <a href="index.html" id="view more">View more>></a>
-    
-    </section>
-
-    
-    <footer  class="contact">
-        <a href="contact.html" id="contact" >Contact Us</a>
-        <br>
-        <a href="https://www.facebook.com" id="facebook" target="_blank">
-            <img src="assests/images/facebook.png" alt="" >
-        </a>
-        <a href="https://www.instagram.com" id="instagram" target="_blank">
-            <img src="assests/images/instagram.png" alt="" >
-        </a>
-        <a href="https://twitter.com" id="twitter" target="_blank">
-            <img src="assests/images/twitter.png" alt="" >
-        </a>
-        <div id="copyright"> &copy; 2020 ROOM SEARCH PVT. LTD.</div>
-
-    </footer>
-</div>
-</body>
+  </body>
 </html>

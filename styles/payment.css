@@ -1,43 +1,24 @@
-html {
-    height: 100%;
-}
-body {
-    min-height: 100%;
-    margin: 0;
-    background-color: #e0e0e0;
-}
-nav,footer{
-    background-color: rosybrown;
-}
-
-nav img{
-    height: 60px;
-    width: 60px;
-}
-
-#hotel_description img{
+.radisson-img {
     height: 500px;
     width: 500px;
-}
-#hotel_description{
+  }
+  .content {
+    padding-top: 5rem;
+  }
+  .content-details {
     background-color: rgb(132, 136, 139);
     width: 50%;
     height: 20%;
     margin: 2% auto;
-}
-#travellers_details
-{
+  }
+  
+  .hotel-book-details {
     margin: 2%;
-}
-
-#tariff{
-    margin: 1% 2%;
+  }
+  
+  .tariff-details {
     border: 1px solid black;
     border-radius: 5px;
     padding: 1% 2%;
-
-}
-footer img{
-    height: 20px;
-    width: 22px;
-}
+  }
+  
